@@ -247,8 +247,9 @@ async def test_extract_error_json():
     with pytest.raises(KeyError):
         result["error"]["code"]
 
+
 def test_script_updated_event_requires_interim_script():
-    #test case for UtteranceBotActionScriptUpdated event
+    # test case for UtteranceBotActionScriptUpdated event
     with pytest.raises(AssertionError, match=r".*interim_script.*"):
         event_type = "UtteranceBotActionScriptUpdated"
         e = new_event_dict(
