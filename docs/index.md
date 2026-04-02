@@ -267,5 +267,7 @@ Troubleshooting <troubleshooting>
 :name: Resources
 :hidden:
 
+FAQs <resources/faqs.md>
+Glossary <resources/glossary.md>
 Security <resources/security/guidelines.md>
 ```
